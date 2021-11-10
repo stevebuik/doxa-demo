@@ -1,0 +1,6 @@
+/.idea
+/.nrepl-port
+/.shadow-cljs
+/doxa-demo.iml
+/node_modules
+/package-lock.json

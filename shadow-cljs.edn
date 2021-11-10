@@ -1,0 +1,9 @@
+{:deps   true
+
+ :nrepl  {:port 8330}                                       ; stable cljs repl port
+
+ :builds {:doxa-demo {:target     :browser
+                      :output-dir "public/doxa-demo-js"
+                      :modules    {:main {:init-fn app/start-app}}
+                      :devtools   {:http-root "public"
+                                   :http-port 4242}}}}
